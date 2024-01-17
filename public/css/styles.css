@@ -1,0 +1,60 @@
+.body{
+    color:#333;
+}
+.banner{
+    min-height: 100px;
+    background: #EEE;
+    display:flex;
+    align-items: center;
+
+}
+.navbar-nav{
+    margin-left: auto;
+}
+navbar.row{
+    background-color: #6c757d!important
+}
+.sidebar{
+    background: #DDD;
+}
+.tag-clouds{
+    padding: 3rem;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem
+}
+.articles{
+    gap:2px;
+}
+.articles .card{
+    width:33%;
+}
+.content{
+    background: #AAA;
+}
+.tag-clouds a{
+    color:#FFF;
+    text-decoration: none;
+}
+.tag-clouds a:hover{
+    text-decoration: underline;
+}
+.likes{
+    width:100%
+}
+.hidden{
+    display: none;
+}
+ .w-100{
+     width: 100%;
+ }
+.pagination nav{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    margin-top:1rem
+}
+.comment-list{
+    background: #EEE;
+}
